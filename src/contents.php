@@ -73,7 +73,7 @@ function get_page_for_posts() {
  */
 function prepare_contents_for_render( \WP_Post $page_for_posts ) {
 	$content = wp_kses_post( $page_for_posts->post_content );
-	$content = do_shortcode( $page_for_posts->post_content );
+	$content = do_shortcode( $content );
 
 	return wpautop( $content );
 }
