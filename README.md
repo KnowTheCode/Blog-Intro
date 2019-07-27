@@ -12,7 +12,7 @@ This plugin and lab walks you through how to:
 1. Build a custom plugin
 2. Enable the editor on the Blog post
 3. Get the contents from the database
-4. And the render (display) the contents on the front-end
+4. And render (display) the contents on the front-end
 
 ## Lab Notes
 
@@ -32,7 +32,7 @@ The editor gives much more flexibility.  Clients are used to the editor.  It all
 This plugin includes the following features:
 
 1. [Composer](https://getcomposer.org/) - Dependency Manager for PHP
-2. [Kint](http://raveren.github.io/kint/) - Awesome package that helps you to debug - forget `var_dump` and `print_r`. You are going to love Kint.
+2. [Kint](https://kint-php.github.io/kint/) - Awesome package that helps you to debug - forget `var_dump` and `print_r`. You are going to love Kint.
 3. [Whoops](https://github.com/filp/whoops) - Oh man, you will wonder why this isn't built into PHP. When an error occurs, this displayer replaces out the PHP orange table and gives you information you can actually use.
 
 ## Installation
